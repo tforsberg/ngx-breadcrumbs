@@ -20,7 +20,7 @@
   "homepage": "https://github.com/McNull/ngx-breadcrumbs",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "build:pkg": "rimraf ./build && ng-packagr -p src/lib/mc-breadcrumbs/ng-package.json && cp {README.md,LICENSE} build/ngx-breadcrumbs",
     "link:pkg": "./link.sh",
